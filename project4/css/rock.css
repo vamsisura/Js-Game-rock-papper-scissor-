@@ -1,0 +1,55 @@
+#container{
+    height: 85vh;
+    width: 50vw;
+    background-color: wheat;
+    right: 0;
+    left: 0;
+    margin: auto;
+    margin-top: 3rem;
+    text-align: center;
+}
+.image{
+
+    padding: 0.5rem;
+    width: 90px;
+}
+.image1{
+
+    padding: 0.5rem;
+    width: 90px;
+}
+
+
+#container h3{
+    margin-left: 2rem;
+   
+}
+#container h4{
+    margin-left: 2rem;
+    text-align: start ;
+}
+
+#lizard,#spock{
+    border-radius: 4rem;
+}
+#result{
+    border: 1px solid black;
+    display: inline-block;
+    padding: 1rem 5rem;
+    text-align: center;
+    justify-content: center;
+    background-color: green;
+    color: white;
+    font-weight: 700;
+    visibility: hidden;
+  
+}
+#cover{
+        width: 50rem;
+        height: 7rem; 
+        position: absolute;
+        top: 8rem;
+        display: none;
+        z-index: 1;
+       
+}
